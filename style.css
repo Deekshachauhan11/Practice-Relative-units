@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: 
+#eeeae7;
+padding: 2.4rem 5rem;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+gap: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.7rem;
+    border-bottom: 2px solid gray;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav1 h4{
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+    font-size: 0.9rem;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav2 h4{
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+    font-size: 0.9rem;
+}
+.nav2 > button{
+    padding: 0.4rem;
+    border-radius: 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+section .text{
+    text-align: center;
+}
+section .text h1{
+    font-size: 4rem;
+}
+section .bottom-text{
+    display: flex;
+    justify-content: space-between;
+}
+section .bottom-text .left-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+section .bottom-text .btn{
+    display: flex;
+}
+section .bottom-text .btn button{
+    padding: 3px 2px;
+    border-radius: 2rem;
+}
