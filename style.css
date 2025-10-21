@@ -53,11 +53,23 @@ section {
   flex-direction: column;
   gap: 6rem;
 }
+.icon{
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 5rem;
+}
+.icon .blue{
+  color: #3f38e8;
+}
+.icon .yellow{
+  color: #cbee3d;
+}
 section .text {
   text-align: center;
 }
 section .text h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 section .text h1 i {
   background-color: #d2f24f;
@@ -182,6 +194,21 @@ section .down{
   flex-direction: column;
   gap: 1.5rem;
   text-align: center;
+  position: relative;
+}
+section .down .blue{
+  color: #3f38e8;
+  font-size: 5rem;
+  position: absolute;
+  top: -20%;
+  left: 10%;
+}
+section .down .blue1{
+  color: #3f38e8;
+  font-size: 5rem;
+  position: absolute;
+  top: 90%;
+  right: 10%;
 }
 section .down h1{
   line-height: 1.4;
